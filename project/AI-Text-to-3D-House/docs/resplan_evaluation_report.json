@@ -1,0 +1,47 @@
+{
+    "timestamp": "2026-09-10T10:49:25.862601",
+    "resplan_samples_evaluated": 2,
+    "generator_samples_evaluated": 5,
+    "metrics": {
+        "resplan": {
+            "room_type_distribution": {
+                "balcony": 2,
+                "bathroom": 2,
+                "bedroom": 2,
+                "other": 12,
+                "kitchen": 2,
+                "living": 2
+            },
+            "avg_rooms_per_layout": 11.0,
+            "avg_area": 102.657815,
+            "avg_connections_per_layout": 13.0
+        },
+        "generator": {
+            "room_type_distribution": {
+                "main_entrance": 5,
+                "living": 5,
+                "dining": 5,
+                "kitchen": 5,
+                "master_bedroom": 5,
+                "bathroom": 9,
+                "parking": 6,
+                "bedroom": 7,
+                "balcony": 4,
+                "staircase": 4,
+                "corridor": 2,
+                "terrace": 1,
+                "home_office": 1,
+                "utility": 1
+            },
+            "avg_rooms_per_layout": 12.0,
+            "avg_area": 203.0,
+            "avg_connections_per_layout": 5.8
+        }
+    },
+    "limitations": [
+        "ResPlan geometry uses exact polygons, Generator uses rectangular bounding boxes.",
+        "Area in ResPlan is reported by dataset; Area in Generator is building_width * building_depth.",
+        "Connections in ResPlan use topological graph edges; Generator uses metadata tags.",
+        "Unavailable metrics: 3D features, roof shapes, detailed interior objects."
+    ]
+}

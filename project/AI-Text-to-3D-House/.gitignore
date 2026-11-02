@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.pytest_cache/
+*.log
+smoke_output.txt
+
+# Database & User Assets
+app.db
+renders/
+
+# Node.js
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# VS Code
+.vscode/
